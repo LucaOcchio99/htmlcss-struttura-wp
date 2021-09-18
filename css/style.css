@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.px-16 {  /* piano orizzontale*/
+    padding-bottom: 16px;
+}
+
+/* Header */
+header{
+    background-color: brown;
+    height: 100px;
+}
+
+/* Section */
+section {
+    background-color: cornsilk;
+    height: 300px;
+}
+
+/* Main Content*/
+main {
+    background-color: darkgray;
+    height: 500px;
+}
+
+.sezione_intestazione {
+    background-color: darkslateblue;
+    height: 100px;
+}
+
+aside {
+    background-color: salmon;
+    height: 400px;
+    width: 20%;
+    float: left;
+}
+
+.sezione_centrale {
+    background-color: seagreen;
+    height: 400px;
+    width: 60%;
+    float: left;
+}
