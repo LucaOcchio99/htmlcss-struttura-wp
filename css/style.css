@@ -14,8 +14,26 @@
     margin-top: 30px;
 }
 
-.px-16 {  /* piano orizzontale*/
+.px-16 {
     padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.px-16-sx-dx{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Debug content*/
+.debug-box {
+    height: 50px;
+    background-color: rgba(0,0,0, .25);
+    border: 1px solid black;
 }
 
 /* Header */
@@ -33,7 +51,6 @@ section {
 /* Main Content*/
 main {
     background-color: darkgray;
-    height: 500px;
 }
 
 .sezione_intestazione {
@@ -43,14 +60,19 @@ main {
 
 aside {
     background-color: salmon;
-    height: 400px;
     width: 20%;
     float: left;
 }
 
 .sezione_centrale {
     background-color: seagreen;
-    height: 400px;
     width: 60%;
     float: left;
+}
+
+/* footer */
+footer {
+    height: 50px;
+    background-color: burlywood;
+    margin-bottom: 16px;
 }
